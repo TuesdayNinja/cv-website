@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+	<html lang="fi">
+
+		<head>
+			<meta charset="UTF-8">
+			<title>Loviisa Hurme - Ansioluettelo</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,500|Martel+Sans:200,400|Sacramento" rel="stylesheet">
+
+
+
+			<style>
+
+			.otsikko {
+				font-family: 'Alegreya Sans SC', sans-serif;
+				text-align: center;
+				background-color: #071a1e;
+				color: #c0d0db;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				letter-spacing: 0.1em;
+				margin-left: -3.65em;
+				margin-right: -3.65em; 
+				border-bottom: 0.17em solid #30a69c;
+				border-top: 0.17em solid #30a69c;
+				
+
+			}
+
+			.tausta {
+				background-color: #c0d0db;
+        		box-shadow: 0 0.2em 1em #18373e;
+        		padding: 3em;
+        		padding-top: 6em;
+			}
+
+			.valikko{
+				background-color: #c0d0db;
+				padding: 1em 3em 1em 3em;
+				position: fixed;
+				top: 0;
+				left: 2.5em;
+				right: 2.5em;
+				border-top: 3.5em solid #071a1e;
+				border-left: 1em solid #071a1e;
+				border-right: 1em solid #071a1e;
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap; 
+			}
+
+			.valikko a {
+				display: block;
+				float: left;
+				font-size: 1.2em;
+				padding: 0.8em;
+				text-decoration: none;
+				font-family: 'Alegreya Sans SC', sans-serif;
+				font-weight: 500;
+				color: #071a1e;
+				
+			}
+
+			.valikko a:hover {
+				color: #30a69c;
+			}
+
+		
+
+			
+			body {
+				font-family: 'Martel Sans', sans-serif;
+				font-weight: 200;
+				font-size: 1.2em;
+				background-color: #071a1e;
+				padding: 3.5em;
+				margin: 0;
+				box-sizing: border-box;
+				width: 100%;
+			}
+
+			.otsikko h2 {
+				margin-bottom: 16px;
+				font-size: 2em;
+			}
+
+			.otsikko h1 {
+				margin-top: 16px;
+				font-family: 'Sacramento', cursive;
+				letter-spacing: 0;
+				font-size: 4em;
+				margin-bottom: 20px
+			}
+
+			img {
+				float: left;
+				width: 300px;
+    			height: auto;
+    			margin-top: 3em;
+    			padding: 1em;
+    			padding-right: 3em;
+			}
+
+			.profiili {
+				padding: 2.5em;
+				
+			}
+
+			.laatikko h3 {
+				font-family: 'Alegreya Sans SC', sans-serif;
+				font-size: 2.5em;
+				text-align: center;
+			}
+
+			.laatikko h4 {
+				font-weight: 400;
+				text-align: center;
+				margin: 0.1em;
+				font-size: 1.3em;
+
+			}
+
+			.laatikko {
+				border-top: 0.12em solid #30a69c;
+				margin: 1em;
+				padding: 2em;
+
+				
+			}
+
+			.flex {
+				display: flex;
+				justify-content: space-evenly;
+			}
+
+			.flex2 {
+				display: flex;
+				justify-content: space-between;
+
+			}
+
+			.flex3{
+				display: flex;
+    			align-items: center;
+    			justify-content: center;
+    			flex-direction: row;
+    			flex-wrap: wrap;
+    			padding: 1em 2em;
+
+			}
+
+			.keskitys{
+				text-align: center;
+			}
+
+			.ikoni {
+				width: 30px;
+				padding: 0 1.5em 0 1.5em;
+				margin: 0;
+			}
+
+			.flex3 a:hover {
+				fill: #30a69c;
+			}
+			
+
+			</style>
+			
+		</head>
+
+		<body>
+
+		
+
+			<div class="valikko">
+					
+					<a href="#profiili" style="font-family: 'Sacramento', cursive;">Loviisa Hurme</a>
+					<a href="#koulutus">Koulutus</a>
+					<a href="#työkokemus">Työkokemus</a>
+					<a href="#taidot">Taidot</a>
+					<a href="#luottamustehtävät">Luottamustehtävät</a>
+					<a href="#yhteystiedot">Yhteystiedot</a>
+				
+			</div> 
+
+
+			<div class="tausta">
+
+					
+				<div class="otsikko">
+					<h2>ANSIOLUETTELO</h2>
+					<h1>Loviisa Hurme</h1>
+				</div>
+				<img src="CVkuva.jpg" alt="CVkuva">
+				<p class="profiili" id="profiili">
+		        	Olen tekemisestä pitävä parikymppinen naisenalku. Olen aktiivinen ja oma-aloitteinen, enkä pelkää vastuun ottamista. Pidän uuden oppimisesta ja olenkin aina avoin uudelle työkohtaiselle perehdytykselle. <br><br>
+
+		        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nisl, fringilla eget nisl a, lacinia fermentum turpis. Curabitur in magna nunc. Maecenas quis justo quis ex dignissim tincidunt eu et elit. Duis gravida consequat elit in pharetra. Etiam ut nisi hendrerit, fermentum erat eget, porttitor quam. Vivamus scelerisque quam quis lacus fermentum, posuere tincidunt mauris iaculis. Sed eget finibus est, vel porta turpis. Suspendisse iaculis lacus in nunc laoreet feugiat vitae id lorem. Praesent commodo sit amet sem in gravida. Morbi pretium viverra laoreet. Donec libero nulla, aliquam at rhoncus et, posuere nec turpis.
+
+			    </p>
+
+			    <div class="laatikko" id="koulutus">
+			    	
+			    	<h3>Koulutus</h3>
+
+			    	<h4>Tampereen yliopisto</h4>
+			    	<h4>Tietojenkäsittelytieteiden tutkinto-ohjelma</h4>
+
+			    	<p>Opiskelen ensimmäsitä vuotta. Opintoihin on kertynyt pääosin peruskursseja niin suunnittelusta kuin koodaamisestakin. Keväänaikana keskeisimpiä kursseja joita vielä suoritan ovat olio-ohjelmoinnin perusteet, käyttöliittymien suunnittelun perusteet ja johdatus www-tekniikoihin.</p>
+
+
+			    	<h4>Kaurialan lukio</h4>
+
+			    	<p>Ylioppilaskirjoituksissa suoriuduin seuraavasti: <br>
+						Äidinkieli E, Yhteuskuntaoppi E, Matematiikka M, Psykologia M, Englanti M</p>
+
+
+
+			    </div>
+
+
+			    <div class="laatikko" id="työkokemus">
+			    	
+			    	<h3>Työkokemus</h3>
+
+			    	<h4>Hesburger Tuulos</h4>
+			    	<h4>kesätyö 19.05.2017 - 27.8.2017</h4>
+			    	<p>Hesburgerissa työnkuvaan kuului pääosin asiakaspalvelu, ruokien pöytään vieminen, kassatyöskentely, siivoaminen sekä kassatilitysten tekeminen. Kassatyöntekijänä koin oppivani monia myyjän perustaitoja kuten lisämyyntiä, ongelmanratkaisua sekä erilaisten asiakkaiden erilaisten tarpeiden huomioimista. Tuotteita myytäessä lisämyynnillä tai myynnin ohjauksella oli suuri merkitys.</p>
+
+			    	<h4>Sale Poltinaho</h4>
+			    	<h4>kesätyö 16.6.2014 - 27.6.2014</h4>
+			    	<p>”Tutustu ja tienaa” -ohjelman kahden viikon työjakso. Tehtäviin kuului hyllyjen täyttöä ja siivousta sekä iloista asiakaspalvelua.</p>
+
+
+			    </div>
+
+			    <div class="laatikko" id="taidot">
+			    	
+			    	<h3>Taidot</h3>
+
+			    	<div class="flex">
+				    	<div>
+				    		<h4 style="padding: 0 2em 0 2em">IT-taidot</h4>
+
+				    		<div class="flex2">
+				    			<p>
+				    				Java<br>
+				    				HTML<br>
+				    				CSS<br>
+				    				JS<br>
+				    				React
+				    			</p>
+
+				    			<p>
+				    				Hyvä<br>
+				    				Hyvä<br>
+				    				Hyvä<br>
+				    				Perusteet<br>
+				    				Perusteet
+				    			</p>
+				    		</div>
+
+
+				    	</div>
+
+				    	<div>
+				    		<h4 style="padding: 0 2em 0 2em">Kielitaidot</h4>
+				    		<div class="flex2">
+					    		<p>
+					   				suomi<br>
+					    			englanti<br>
+					    			ruotsi
+					    		</p>
+
+					    		<p>
+					    			äidinkieli<br>
+					    			sujuva<br>
+					    			perusteet
+					    		</p>
+					    	</div>
+				    	</div>
+				    </div>
+
+				    	<p style="font-size: 0.8em; text-align: center;">Taidoista tarkemmin GitHubissa ja LinkedInissä.</p>
+
+			    </div>
+
+			    <div class="laatikko" id="luottamustehtävät">
+			    	
+			    	<h3>Luottamustehtävät</h3>
+
+			    	<h4>Luuppi ry</h4>
+			    	<h4>2017 -</h4>
+			    	<p>Opiskelun ohella toimin ainejärjestössäni Luuppi ry:ssä toimihenkilönä osana yritystiimiä, jossa muun muassa myymme yhteistyösopimuksia yrityksille sekä vastaamme esimerkiksi niiden osalta sovittujen excursioiden toteutumisesta.</p>
+
+			    	<br>
+
+			    	<h4>Hämeen Kokoomusnuorten taloudenhoitaja ja luottamusmies</h4>
+			    	<h4>2017 – 2018</h4>
+			    	
+			    	<br>
+
+			    	<h4>Hämeenlinnan Kokoomusnuorten puheenjohtaja</h4>
+			    	<h4>2016 – 2018</h4>
+			    	
+			    	<br>
+
+			    	<h4>Kaurialan lukion TVT-tutor</h4>
+			    	<h4>2015 – 2016</h4>
+			    	<p>TVT-tutorin tehtäviin kuului opettajien ja opiskelijoiden auttaminen erilaisissa teknisissä ongelmissa sekä sähköisissä ylioppilaskirjoituksissa tilapäisenä käyttöjärjestelmänä käytettävän Abitin kanssa.</p>
+
+			    	<br>
+
+			    	<h4>Kaurialan lukion opiskelijakunnan hallitus</h4>
+			    	<h4>2014 – 2016</h4>
+			    	<p>Toimin Kauurialan lukion opiskelijakunnan rahastonhoitaja kauden 2014-2016 ja varapuheenjohtaja kauden 2015-2016</p>
+
+
+			    </div>
+
+			    <div class="laatikko" id="yhteystiedot">
+			    	
+			    	<h3>Yhteystiedot</h3>
+			    	
+			    	<p class="keskitys"><span style="font-family: 'Sacramento', cursive; font-size:1.5em; ">Loviisa Hurme</span> &emsp; +358 40 4511 196 &emsp; loviisa.hurme@outlook.com</p>
+
+			    	<div class="flex3">
+			    		<a href="https://www.linkedin.com/in/loviisa-hurme/"><img src="linkedin.svg" alt="LinkedIn" class="ikoni"></a>
+			    		<a href="https://github.com/TuesdayNinja"><img src="github.svg" alt="GitHub" class="ikoni"></a>
+			    		<a href="https://www.instagram.com/lov.is.a/"><img src="instagram.svg" alt="Instagram" class="ikoni"></a>
+			    		<a href="https://telegram.me/TiistaiNinja"><img src="telegram.svg" alt="Telegram" class="ikoni"></a>
+			    		<a href="https://www.facebook.com/loviisa.hurme"><img src="facebook.svg" alt="Facebook" class="ikoni"></a>
+			    		
+
+			    		
+				    	
+				    </div>
+
+			    </div>
+
+
+
+			    
+				
+			</div>
+
+
+
+			
+		</body>
+
+	</html>
