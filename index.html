@@ -107,8 +107,8 @@
 				width: 300px;
     			height: auto;
     			margin-top: 3em;
-    			padding: 1em;
-    			padding-right: 3em;
+    			padding: 3em;
+    			padding-top: 1em;
 			}
 
 			.profiili {
@@ -200,9 +200,15 @@
 					display: none;
 					bottom: 0;
 					top: 0;
+					right: 0;
+					left: 0;
 					border: none;
 					flex-direction: column;
 					justify-content: flex-start;
+				}
+
+				.valikko a {
+					font-size: 1.5em;
 				}
 
 				.valikko.avattu {
@@ -222,6 +228,15 @@
 
 				.avaa_valikko{
 					display: block;
+				}
+
+				.cv_kuva {
+					float: none;
+					margin: 0 auto;
+					display: block;
+					padding: 0;
+					padding-top: 3em;
+					
 				}
 			}
 
@@ -276,11 +291,11 @@
 					<h2>CURRICULUM VITAE</h2>
 					<h1>Loviisa Hurme</h1>
 				</div>
-				<img src="CVkuva.jpg" alt="CVkuva" class="cv_kuva">
+				<img src="Luuppi_kuva.jpg" alt="CV picture" class="cv_kuva">
 				<p class="profiili" id="profiili">
 					I am a twentyone-year-old student who likes to keep herself occupied with multiple free-time activities.
 					At the moment I’m studying computer science for third year at the University of Tampere.
-					I applied for my current bachelor’s program with no previous experience of programming but because of my enthusiasm towards my studies I’ve learned basics quick.
+					I applied for my current bachelor’s program with no previous experience of programming but because of my enthusiasm towards my studies I’ve learned the basics quickly.
 					I intend to focus on web-development.
 		        	<br><br>
 					Alongside my studies I participate in student organization activities as a responsible of corporate relations.
@@ -300,22 +315,17 @@
 			    	<h4>University of Tampere</h4>
 			    	<h4>Computer science</h4>
 
-					<p>I am third year student. My studies include mainly basic level courses of programming and user experience design.</p>
+					<p>I am a third year student. My studies include mainly basic level courses of programming and user experience design.</p>
 					
 					<h4>University of Alaska Fairbanks</h4>
 
-			    	<p>I spent spring 2019 at Alaska as exchange student.</p>
+			    	<p>I spent spring 2019 at Alaska as an exchange student.</p>
 
 
 			    	<h4>Kauriala high school</h4>
 
-			    	<p>I accomplished my matriculation examination with following grades: <br>
+			    	<p>I accomplished my matriculation examination with the following grades: <br>
 						Mother tongue Finnish EXIMIA, Social studies EXIMIA, Advanced level of mathematics MAGNA, Psychology MAGNA, Advanced level of English MAGNA</p>
-
-					<h4>Other training</h4>
-
-			    	<p>Hygiene proficiency certificate</p>
-
 
 
 			    </div>
@@ -326,15 +336,17 @@
 			    	<h3>Work experience</h3>
 
 			    	<h4>contact center Moment group</h4>
-			    	<h4>07/25/2018 - 08/13/2019</h4>
-			    	<p>My duties are taking care of several companies' customer service and switches. In my job I have to use three different languages: Finnish, Swedish and English</p>
+			    	<h4>25.7.2018 - 13.8.2019</h4>
+			    	<p>My duties were taking care of several companies' customer service and switches. 
+					My tasks included finding relevant information for customers fast and using multiple different
+					software e.g. for time reservation. I used three different languages: Finnish, Swedish and English</p>
 
 			    	<h4>fast food restaurant Hesburger Tuulos</h4>
-			    	<h4>summer job 05/19/2017 - 08/27/2017</h4>
+			    	<h4>summer job 19.5.2017 - 27.8.2017</h4>
 			    	<p>My duties were mainly customer service, carrying products to tables, being a cashier and cleaning. As a cashier I learned many basic skills of selling like extra selling, problem solving and taking notice of special needs of various customers.</p>
 
 			    	<h4>grocery store Sale Poltinaho</h4>
-			    	<h4>summer job 06/16/2014 - 06/27/2014</h4>
+			    	<h4>summer job 16.6.2014 - 27.6.2014</h4>
 			    	<p>My duties were mainly filling shelves, cleaning and keeping up positive picture of the store.</p>
 
 
@@ -365,18 +377,12 @@
 				    	</div>
 
 				    	<div>
-				    		<h4 style="padding: 0 2em 0 2em">Language proficiency</h4>
+				    		<h4 style="padding: 0 2em 0 2em">Other skills</h4>
 				    		<div class="flex2">
 					    		<p>
-					   				Finnish<br>
-					    			English<br>
-					    			Swedish
-					    		</p>
-
-					    		<p>
-					    			mother tongue<br>
-					    			fluent<br>
-					    			basics
+									Git<br>
+									Agile methodologies<br>
+					    			Visual design
 					    		</p>
 					    	</div>
 				    	</div>
@@ -392,7 +398,11 @@
 
 			    	<h4>Responsible of corporate relations, Luuppi ry</h4>
 			    	<h4>2018 -</h4>
-			    	<p>Alongside my studies I participate in student organisation activities as a responsible of corporate relations. My main duties are negotiating cooperative contracts with companies and taking care of implementing them. Luuppi ry is student organisation of computer science, mathematics and statistics at university of Tampere</p>
+					<p>Alongside my studies I participate in student organisation activities as a responsible of corporate relations. My main duties are negotiating cooperative contracts with companies and taking care of implementing them. Luuppi ry is student organisation of computer science, mathematics and statistics at university of Tampere</p>
+					
+					<h4>Memeber of board, Luuppi ry</h4>
+			    	<h4>Fall 2018</h4>
+			    	
 
 			    	<br>
 
@@ -408,7 +418,7 @@
 
 			    	<h4>Kauriala high school ICT-tutor</h4>
 			    	<h4>2015 – 2016</h4>
-			    	<p>As ICT-tutor I helped teachers and other students with various technical problems. One of my main duties were help students with digitalisation of matriculation examination. Before the beginning of the digital test students need to boot their laptops into a Linux operating system from a USB memory. It was ICT-tutors responsibility to teach student to boot their laptops and to figure out why some laptops didn’t co-operate.</p>
+			    	<p>As ICT-tutor I helped teachers and other students with various technical problems. One of my main duties were help students with digitalisation of matriculation examination. Before the beginning of the digital test students need to boot their laptops into a Linux operating system from a USB memory. It was ICT-tutors' responsibility to teach student to boot their laptops and to figure out why some laptops didn’t co-operate.</p>
 
 			    	<br>
 
